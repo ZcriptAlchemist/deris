@@ -1,6 +1,6 @@
 # deris
 
-deris is a redis clone built using golang by following `build your own x` repository.
+deris is a redis clone built using golang by following [build your own x](https://www.build-redis-from-scratch.dev/en/introduction) repository.
 
 access deris using redis CLI tools with `redis-cli -p 6379`
 
