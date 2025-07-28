@@ -40,6 +40,7 @@ func main() {
 
 		// ignore request and send back a PONG
 		conn.Write([]byte("+OK\r\n"))
+		log.Println("received input: ", string(buffer)) // logging user input for devlopment purpose
 	}
 
 }
